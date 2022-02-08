@@ -20,24 +20,24 @@ public class Calculator01 {
         System.out.println("3 - Multiply");
         System.out.println("4 - Divide");
 
-        int selection = input.nextInt();
+        int selection = input.nextInt(); // retrieve selection
 
-        double result = 0;
+        double result = 0; // result holder
 
         switch (selection) {
-            case 1: result = firstNumber + secondNumber;
+            case 1: result = firstNumber + secondNumber; //Add
             break;
-            case 2: result = firstNumber - secondNumber;
+            case 2: result = firstNumber - secondNumber; //Subtract
             break;
-            case 3: result = firstNumber * secondNumber;
+            case 3: result = firstNumber * secondNumber; //Multiply
             break;
-            case 4: result = firstNumber / secondNumber;
+            case 4: result = firstNumber / secondNumber; //Divide
             break;
             default:
                 System.exit(0); // clean exit
         }
         System.out.println("Output: ");
-        System.out.println("Result: " + result);
+        System.out.println("Result: " + result); //Output result
 
 
     }
